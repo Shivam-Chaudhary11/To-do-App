@@ -102,7 +102,7 @@ const TodoList = ({ tasks }) => {
     }));
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sortedTasks]);
+  }, [sortedTasks,tasks]);
 
   return (
     <>
